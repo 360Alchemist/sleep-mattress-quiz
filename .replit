@@ -1,0 +1,9 @@
+run = "npm install && npm run dev"
+modules = ["nodejs-20:v8-20231227-322e88b"]
+
+[nix]
+channel = "stable-24_05"
+
+[[ports]]
+localPort = 5173
+externalPort = 80
